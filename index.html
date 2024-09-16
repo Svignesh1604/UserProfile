@@ -1,0 +1,146 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile Page</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="sidebar">
+      <div class="sidebar-content">
+        <div class="profile">
+          <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="Profile Picture" class="profile-img">
+          <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Vignesh kumar</h2>
+          <br>
+          <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Web Developer</p>
+          <br>
+          <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Chennai</p>
+
+          <button class="btn-follow">Follow</button>
+          <button class="btn-message">Message</button>
+        </div>
+        <br>
+        <br>
+
+        <div class="sidebar-nav">
+          <ul>
+            <li><a href="#" class="active">Notifications</a></li>
+            <li><a href="#">Applications</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">User Settings</h1>
+      <br><br>
+      <form class="form">
+        <div class="form-column">
+          <div class="form-group">
+            <label for="first-name" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">First Name</label>
+            <span id="first-name" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color:teal">Vignesh</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="email" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Email</label>
+            <span id="email" class="static-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">john.doe@gmail.com</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="company" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Company</label>
+            <span id="company" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: teal;">GR Network</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="certifications" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Certifications</label>
+            <span id="certifications" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: black;">AWS Certified Developer</span>
+          </div>
+          
+          <br>
+          <div class="form-group">
+            <label for="education" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Educational Qualifications</label>
+            <span id="education" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: teal;">B.Sc in Computer Science</span>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="experience" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Experience</label>
+            <span id="experience" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Fresher Web Development</span>
+          </div>
+          <br>
+
+
+        </div>
+        <div class="form-column">
+          <div class="form-group">
+            <label for="last-name" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Last Name</label>
+            <span id="last-name" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color:teal;">Kumar</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="phone-number" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Phone Number</label>
+            <span id="phone-number" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: black;">+1234567890</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="designation" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Designation</label>
+            <span id="designation" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: teal;">Web Developer</span>
+          </div>
+          <br>
+        
+          <!-- New form groups start here -->
+          <div class="form-group">
+            <label for="area-of-interest" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Area of Interest</label>
+            <span id="area-of-interest" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Full Stack Development</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="skills" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Skills</label>
+            <span id="skills" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: teal;">HTML, CSS, JavaScript, Node Js,React</span>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="projects" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Projects</label>
+            <span id="projects" class="static-text" style="font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Portfolio Website, E-commerce Platform,To-Do</span>
+          </div>
+          <br>
+        </div>
+        
+      </form>
+
+      
+
+      
+    
+      <div class="bio-section">
+        <div class="form-group">
+          <label for="bio" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: blue;">Bio</label>
+          <textarea id="bio" rows="4" placeholder="Write something about yourself..."></textarea>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <a href="https://twitter.com" target="_blank" class="social-icon twitter">Twitter</a>
+        <a href="https://instagram.com" target="_blank" class="social-icon instagram">Instagram</a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon linkedin">LinkedIn</a>
+        <a href="https://github.com" target="_blank" class="social-icon github">GitHub</a>
+      </div>
+    
+      <div class="form-actions">
+        <button class="btn-update" type="submit">Update</button>
+        <button class="btn-cancel" type="button">Cancel</button>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
+
